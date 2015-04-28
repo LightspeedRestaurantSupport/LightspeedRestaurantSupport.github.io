@@ -12,7 +12,7 @@ if (!$("input[@name=q1]:checked").val() ||
 !$("input[@name=q9]:checked").val() ||            
 !$("input[@name=q10]:checked").val()            
 ) {            
-alert("You're not done yet!");        
+alert("Please answer all the questions");        
 }        
 
 else {            
@@ -37,7 +37,7 @@ var cat3 = ($("input[@name=q3]:checked").val() != "b");
 
 var cat4 = ($("input[@name=q4]:checked").val() != "b");  
 
-var cat5 = ($("input[@name=q5]:checked").val() != "a"); 
+var cat5 = ($("input[@name=q5]:checked").val() != "b"); 
 
 var cat6 = ($("input[@name=q6]:checked").val() != "b");  
 
